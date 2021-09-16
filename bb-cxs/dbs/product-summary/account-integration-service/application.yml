@@ -1,0 +1,12 @@
+---
+### Live profile
+spring:
+  profiles: live
+
+backbase:
+  client:
+    bank:
+      rest:
+        url:
+          balance: http://localhost:8082/account-mock/rest/balance
+          arrangement-details: http://localhost:8082/account-mock/rest/balance

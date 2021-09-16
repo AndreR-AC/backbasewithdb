@@ -1,0 +1,10 @@
+---
+### Live profile
+spring:
+  profiles: live
+  datasource:
+    driver-class-name: ${spring.datasource.driver-class-name}
+    username: ${spring.datasource.username.payment-order-pandp-service}
+    password: ${spring.datasource.password.payment-order-pandp-service}
+    url: ${spring.datasource.url.payment-order-pandp-service}
+
